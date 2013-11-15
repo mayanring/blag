@@ -33,7 +33,7 @@ group :doc do
 end
 
 
-gem 'factory_girl'
+gem 'factory_girl_rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
