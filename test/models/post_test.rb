@@ -7,7 +7,7 @@ class PostTest < ActiveSupport::TestCase
   end
 
   test "post is invalid without content" do
-    post_without_content = FactoryGirl.create( :post, :content => nil)
+    post_without_content = FactoryGirl.build( :post, :content => nil)
     assert !post_without_content.valid?
   end
 end
